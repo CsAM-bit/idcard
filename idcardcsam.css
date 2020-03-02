@@ -1,0 +1,131 @@
+.profile-card {
+background-color: grey;
+}
+
+.head {
+background-color: gba(231,210,204,0.39);
+  color: grey;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+.content {
+  background-color: grey;
+  color: ivory;
+  line-height: 1;
+}
+.about {
+  background-color: #B9B7BD;
+  text-align: justify;
+  box-sizing: border-box;
+  padding: 30px;
+  color: white;
+ }
+.name-headline {
+background-color:rgba(231,210,204,0.39);
+font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+margin-top: -60px;
+padding-top: 55px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: 380px;
+  max-width: calc(100vw - 10px);
+  margin-top: -10px;
+}
+body {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: ivory;
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+  
+}
+.head, .content {
+  width: 40%;
+  margin: 0 auto;
+}
+.head{
+margin-top: 60px; 
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.profile-image {
+  margin-top: -40px;
+}
+img {
+  width: 180px;
+  height: 180px;
+  background-color: #666;
+  filter: grayscale(20%);
+  transition: all 0.5s ease-in-out;
+  margin-top: -10px;
+}
+img:hover {
+  transform: scale(1.1);
+ -webkit-box-shadow: 16px -1px 42px 7px #858585; 
+box-shadow: 16px -1px 42px 7px #858585;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 8px;
+  box-shadow: 1px 10px 15px 5px #858585;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+h1{
+  font-size: 18px;
+  letter-spacing: 10px;
+  font-weight: bold;
+ }
+h2{
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #c9c9be;
+}
+#hobby{
+text-align: center;
+color: #c9c9be;
+
+}
+#contact{
+  color: #c9c9be;
+  font-size: 16px;
+}
+.name-headline {box-shadow:-webkit-box-shadow: 1px 10px 15px 5px #858585; 
+box-shadow: 1px 10px 15px 5px #858585;
+padding-top: 50px;
+}
+.bottom{
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+#location{
+  font-size: 10px;
+  color: #bfbfbf;
+  color: ivory;
+  font-weight: bold;
+}
