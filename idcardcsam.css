@@ -5,7 +5,7 @@ background-color: grey;
 .head {
 background-color: gba(231,210,204,0.39);
   color: grey;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   line-height: 2;
 }
 
@@ -18,14 +18,14 @@ background-color: gba(231,210,204,0.39);
   background-color: #B9B7BD;
   text-align: justify;
   box-sizing: border-box;
-  padding: 30px;
+  padding: 0.625rem;
   color: white;
  }
 .name-headline {
 background-color:rgba(231,210,204,0.39);
-font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
-margin-top: -60px;
-padding-top: 55px;
+font-family: 'Roboto Slab', serif;
+margin-top: -3.75rem;
+padding-top: 3.4375rem;
 
 }
 
@@ -34,12 +34,13 @@ padding-top: 55px;
   padding: 0;
   box-sizing: border-box;
   font-size: 100%;
+  margin-bottom: 1rem;
 }
 
 .profile-card {
-  width: 380px;
-  max-width: calc(100vw - 10px);
-  margin-top: -10px;
+  width: 380vw;
+  max-width: calc(100vw - 0.625rem);
+  margin-top: -0.625rem;
 }
 body {
   height: auto;
@@ -58,6 +59,11 @@ body {
   width: 40%;
   margin: 0 auto;
 }
+@media(max-width:420px) {
+  .head, .content {
+    height: 40%;
+   }
+}
 .head{
 margin-top: 60px; 
 }
@@ -69,15 +75,15 @@ margin-top: 60px;
 }
 
 .profile-image {
-  margin-top: -40px;
+  margin-top: -2.5rem;
 }
 img {
-  width: 180px;
-  height: 180px;
+  width: 60%;
+  height: 60%;
   background-color: #666;
   filter: grayscale(20%);
   transition: all 0.5s ease-in-out;
-  margin-top: -10px;
+  margin-top: -0.625rem;
 }
 img:hover {
   transform: scale(1.1);
@@ -86,7 +92,7 @@ box-shadow: 16px -1px 42px 7px #858585;
 }
 .profile-card {
   background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 8px;
+  border-radius: 0.5rem;
   box-shadow: 1px 10px 15px 5px #858585;
 }
 ul {
@@ -97,13 +103,13 @@ li {
   display: inline;
 }
 h1{
-  font-size: 18px;
-  letter-spacing: 10px;
+  font-size: 1.125rem;
+  letter-spacing: 0.625rem;
   font-weight: bold;
  }
 h2{
-  font-size: 14px;
-  letter-spacing: 4px;
+  font-size: 0.875rem;
+  letter-spacing: 0.25rem;
   color: #c9c9be;
 }
 #hobby{
@@ -113,19 +119,20 @@ color: #c9c9be;
 }
 #contact{
   color: #c9c9be;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .name-headline {box-shadow:-webkit-box-shadow: 1px 10px 15px 5px #858585; 
 box-shadow: 1px 10px 15px 5px #858585;
-padding-top: 50px;
+padding-top: 3.125rem;
 }
 .bottom{
-  margin-top: -25px;
-  margin-bottom: 25px;
+  margin-top: -1.5625rem;
+  margin-bottom: 1.5625rem;
 }
 #location{
-  font-size: 10px;
+  font-size: 0.625rem;
   color: #bfbfbf;
   color: ivory;
   font-weight: bold;
 }
+
